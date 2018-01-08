@@ -1,0 +1,121 @@
+body {
+    background-color: #F8FCFF;
+    color: #2F2F2F;
+    margin: 0;
+  }
+
+  main {
+    margin: auto;
+    width: 80%;
+  }
+
+  header {
+    background-color: #2F67A4;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    color: #C6C7C1;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0.25em;
+    text-align: center;
+    text-shadow: 2px 2px 3px #888;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: #2F2F2F;
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+    margin-top: 0;
+    text-shadow: 1px 1px 2px #999;
+  }
+
+  section:nth-of-type(odd) {
+    background-color: #97AFC3;
+  }
+
+  section:nth-of-type(even) {
+    background-color: #B8CFE0;
+  }
+
+  section {
+    border-radius: 0.25em;
+    box-shadow: 3px 4px 5px #999;
+    margin-bottom: 2em;
+    padding: 1.5em;
+  }
+
+  a {
+    color: #234B78;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #4174AC;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  /***********   FORMS   ***********/
+
+  label {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      padding: 5px;
+  }
+
+  input {
+    background-color: #FCFCFB;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 0.3em;
+  }
+
+  button {
+    background-color: #FCFCFB;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 3px #999;
+    margin: 5px 5px;
+    padding: 0.3em;
+  }
+
+  /***********   TABLES   ***********/
+
+  table {
+    width: 100%;
+    background-color: #FCFCFB;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 0.5em;
+    text-align: left;
+  }
+
+
+  tbody tr:nth-of-type(even) {
+    background-color: #f5f5f5;
+  }
+
+
+  thead tr {
+    background-color: #E6E6E5;
+    color: #2F2F2F;
+  }
+
+/**********   CLASSES   ***********/
+.center {
+  text-align: center;
+}
+
+.align-input {
+  margin-left: 115px;
+}
