@@ -1,0 +1,116 @@
+body {
+  background-color: #dbccac;
+  color: #12192a;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+}
+
+h1 {
+  /* background-color: #C8BBB1; */
+  background-color: #253255;
+  color:  #b4975a;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  text-align: center;
+  text-shadow: 1px 1px 3px #554825;
+  width: 100%;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #253255
+}
+
+section:nth-of-type(odd) {
+  /* background-color: #FFD4CA; */
+  background-color: #f7f4ee;
+}
+
+section:nth-of-type(even) {
+  background-color: #f7f4ee;
+}
+
+section {
+  border-radius: 0.25em;
+  box-shadow: 3px 4px 5px #554825;
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+
+a {
+  color: #a28751;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a28751;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/***********   FORMS   ***********/
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  padding: 5px;
+}
+
+input {
+  border-radius: 0.5em;
+  display: inline-block;
+  margin: 5px 5px;
+  padding: 0.5em;
+}
+
+button {
+  background-color: #dbccac;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 3px #554825;
+  margin: 5px 5px;
+  padding: 0.5em;
+}
+
+
+/***********   TABLES   ***********/
+
+table {
+  width: 100%;
+  background-color: #f9f6f1;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5em;
+  text-align: left;
+}
+
+
+tbody tr:nth-of-type(odd) {
+  background-color: #f3eee3;
+}
+
+
+thead tr {
+  /*background-color: #DED0C5;*/
+  background-color: #b4975a;
+  color: #0e1320;
+}
+
+
+/**********   CLASSES   ***********/
+.center {
+  text-align: center;
+}
+
+.align-input {
+  margin-left: 115px;
+}
